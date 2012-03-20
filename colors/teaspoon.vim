@@ -1,6 +1,6 @@
 " Maintainer:   Arnau Siches <http://github.com/arnau/>
 " Version:      0.1
-" Last Change:  March 19th, 2012
+" Last Change:  March 20th, 2012
 " Credits:      This is a modification of jellybeans.vim color scheme
 
 " Copyright (c) 2009-2011 NanoTech
@@ -466,30 +466,11 @@ call s:X("n3Prefix","7CE0FF","","","LightBlue","")
 hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
 "}}}
-" CoffeeScript Syntax {{{
 
-hi! link coffeeRegExp javaScriptRegexpString
+"" Plugins, etc.
 
-"}}}
-" C
-
-hi! link cOperator Constant
-
-" Objective-C/Cocoa
-hi! link objcClass Type
-hi! link cocoaClass objcClass
-hi! link objcSubclass objcClass
-hi! link objcSuperclass objcClass
-hi! link objcDirective rubyClass
-hi! link cocoaFunction Function
-hi! link objcMethodName Identifier
-hi! link objcMethodArg Normal
-hi! link objcMessageName Identifier
-
-" Plugins, etc.
-
-hi! link TagListFileName Directory
-call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
+"hi! link TagListFileName Directory
+"call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
 
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
