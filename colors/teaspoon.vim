@@ -308,8 +308,8 @@ call s:X("VertSplit","000000","000000","italic","Black","Black")
 " TODO: check
 call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
-call s:X("Folded","ffcc66","151515","italic","Black","")
-call s:X("FoldColumn","ffcc66","151515","","","Black")
+call s:X("Folded","666666","151515","italic","Black","")
+call s:X("FoldColumn","666666","151515","","","Black")
 hi! link SignColumn FoldColumn
 
 " TODO: check
