@@ -295,8 +295,8 @@ if version >= 700
 endif
 
 " TODO: check
-call s:X("Visual","","404040","","","Black")
-call s:X("Cursor","000000","ff0066","","","")
+call s:X("Visual","000000","FF0066","","","Black")
+call s:X("Cursor","000000","FF0066","","","")
 
 call s:X("LineNr","343434","151515","none","Black","")
 call s:X("Comment","888888","","italic","Grey","")
