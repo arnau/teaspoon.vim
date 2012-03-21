@@ -336,7 +336,7 @@ hi! link Operator Statement
 call s:X("Type","ffb964","","","Yellow","")
 call s:X("NonText","565656","222222","","Black","")
 
-call s:X("SpecialKey","343434","151515","","Black","")
+call s:X("SpecialKey","565656","151515","","Black","")
 
 call s:X("Search","000000","ffffff","","Magenta","")
 
