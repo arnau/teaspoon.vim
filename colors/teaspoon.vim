@@ -467,7 +467,21 @@ hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
 "}}}
 
+" Git Gutter {{{
 
+call s:X("n3Prefix","7CE0FF","","","LightBlue","")
+
+" an added line
+call s:X("GitGutterAdd", "00BB00", "000000", "", "Black", "")
+" a changed line
+call s:X("GitGutterChange", "FFAA00", "000000", "", "Black", "")
+" at least one removed line
+call s:X("GitGutterDelete", "BB0000", "000000", "", "Black", "")
+" a changed line followed by at least one removed line
+call s:X("GitGutterChangeDelete", "FFCC00", "000000", "", "Black", "")
+
+
+" }}}
 
 "" Plugins, etc.
 
