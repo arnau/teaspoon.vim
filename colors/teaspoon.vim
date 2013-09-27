@@ -467,6 +467,8 @@ hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
 "}}}
 
+
+
 "" Plugins, etc.
 
 "hi! link TagListFileName Directory
@@ -477,7 +479,7 @@ if !s:low_color
   hi StatusLineNC ctermbg=234
   hi Folded ctermbg=236
   hi FoldColumn ctermbg=236
-  hi SignColumn ctermbg=236
+  hi SignColumn ctermbg=0
   hi DiffAdd ctermbg=22
   hi DiffDelete ctermbg=52
   hi DiffChange ctermbg=17
