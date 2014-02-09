@@ -1,10 +1,10 @@
 " Maintainer:   Arnau Siches <http://github.com/arnau/>
 " Version:      0.1
-" Last Change:  March 20th, 2012
+" Last Change:  February 9th, 2014
 " Credits:      This is a modification of jellybeans.vim color scheme
 
 " Copyright (c) 2009-2011 NanoTech
-" Copyright (c) 2012 Arnau Siches
+" Copyright (c) 2012-2014 Arnau Siches
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
@@ -280,6 +280,7 @@ set background=dark
 if version >= 700
   call s:X("CursorLine","","111111","","","Black")
   call s:X("CursorColumn","","111111","","","Black")
+  call s:X("ColorColumn","","111111","","","Black")
   call s:X("MatchParen","000000","ff6666","bold","","DarkCyan")
 
   " TODO: check
